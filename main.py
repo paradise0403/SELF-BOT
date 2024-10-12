@@ -79,7 +79,7 @@ async def allcmds(ctx):
     command_list = bot.commands
     sorted_commands = sorted(command_list, key=lambda x: x.name)
 
-    response = "# **Kaori Self Bot**\n\n"
+    response = "# **Paradise Self Bot**\n\n"
     for command in sorted_commands:
         response += f"🔹 _{command.name}_, "
         
@@ -89,11 +89,17 @@ async def allcmds(ctx):
 @bot.event
 async def on_ready():
     infbanner = """
- _  __                     _ 
-| |/ /  __ _   ___   _ __ (_)
-| ' /  / _ | / _ \ | '__|| |
-| . \ | (_| || (_) || |   | |
-|_|\_\ \__,_| \___/ |_|   |_|
+$$$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  $$$$$$$\  $$$$$$\  $$$$$$\  $$$$$$$$\ 
+$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ \_$$  _|$$  __$$\ $$  _____|
+$$ |  $$ |$$ /  $$ |$$ |  $$ |$$ /  $$ |$$ |  $$ |  $$ |  $$ /  \__|$$ |      
+$$$$$$$  |$$$$$$$$ |$$$$$$$  |$$$$$$$$ |$$ |  $$ |  $$ |  \$$$$$$\  $$$$$\    
+$$  ____/ $$  __$$ |$$  __$$< $$  __$$ |$$ |  $$ |  $$ |   \____$$\ $$  __|   
+$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |  $$ |  $$\   $$ |$$ |      
+$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$$$$$$  |$$$$$$\ \$$$$$$  |$$$$$$$$\ 
+\__|      \__|  \__|\__|  \__|\__|  \__|\_______/ \______| \______/ \________|
+                                                                              
+                                                                              
+                                                                              
                              
 """
     print(Fore.GREEN + infbanner + Style.RESET_ALL)
@@ -101,13 +107,13 @@ async def on_ready():
     print(f"        Logged in as: {bot.user.name}")
     print(f"        Selfbot ID: {bot.user.id}")
     print(f"{'='*30}\n")
-    print("KAORI BOT IS WORKING 😺")
+    print("PARADISE BOT IS WORKING 😺")
     print(f"{'-'*30}")
     print(f"   Username: {bot.user.name}")
     print(f"   Guilds: {len(bot.guilds)}")
     print(f"   Members: {sum([guild.member_count for guild in bot.guilds])}")
     print(f"{'-'*30}")
-    print("Developer - K A O R I")
+    print("Developer - P A R A D I S E")
 
 # Load cogs
 def load_cogs():
