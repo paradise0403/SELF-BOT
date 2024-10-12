@@ -8,4 +8,7 @@ IM ALSO GOING TO DROP SOME BOMBSQUAD FILES HERE....
 
 MY DC ID - paradise403
 discord.gg/paradiseworld
-# how to use these file
+
+# HOW TO RUN THIS SELF BOT 
+
+- GO TO WEBSITE - https://bot-hosting.net/login
