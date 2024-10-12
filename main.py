@@ -42,7 +42,7 @@ async def help(ctx, *, query=None):
     if not query:
         cogs = bot.cogs.keys()
 
-        helpinfected = f"👑 **Kaori Self Bot - Help Panel 👑**\n"
+        helpinfected = f"👑 **Paradise Self Bot - Help Panel 👑**\n"
         helpinfected += f"Use `{prefix}help <module>` to see commands for a specific module.\n\n"
 
         for cog in cogs:
