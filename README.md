@@ -23,5 +23,5 @@ THEN LOGIN WITH YOUR DISCORD ACCOUT AND CREATE A SERVER PANEL
 
  **BOOM YOUR BOT IS WORKING**
 
- GOT ANY ERROR JOIN - https://discord.gg/paradiseworld
- MY DISCORD ID - paradise043
+ GOT ANY ERROR JOIN - [https://discord.gg/paradiseworld](https://discord.gg/kaV3sP6Gr5)
+ MY DISCORD ID - paradise0403
